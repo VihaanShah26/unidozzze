@@ -1,0 +1,52 @@
+* { 
+    background-color: rgb(209, 209, 245);
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("fonts/FuturaMediumCondensedBT.ttf") format("truetype");
+}
+@font-face {
+    font-family: "optima";
+    src: url("fonts/OPTIMA.TTF") format("truetype");
+}
+
+
+.header{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: futura;
+}
+.page-title {
+    align-items: left;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.banner {
+    align-items: right;
+    text-align: center;
+    justify-content: right;
+    justify-items: right;
+    align-content: right;
+    margin-right: 30px;
+    font-size: 20px;
+    position: relative;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgb(74, 74, 171);
+    color: white;
+    cursor: pointer;
+}
+
+.about {
+    margin-left: 30px;
+    width: 500px;
+    text-align: justify;
+}
