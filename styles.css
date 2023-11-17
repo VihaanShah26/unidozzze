@@ -10,12 +10,19 @@
     font-family: "optima";
     src: url("fonts/OPTIMA.TTF") format("truetype");
 }
-
+@font-face {
+    font-family: "blackhansans";
+    src: url("fonts/BlackHanSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "barlow";
+    src: url("fonts/Barlow-Light.ttf") format("truetype");
+}
 
 .header{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: futura;
+    font-family: blackhansans ;
 }
 .page-title {
     align-items: left;
@@ -23,6 +30,12 @@
     letter-spacing: 2px;
     font-size: 24px;
     margin-left: 30px;
+    /* background-image: url("images/bg3.png") ; */
+}
+.page-title h5 {
+    font-family: barlow;
+    position: relative;
+    top: -20px;
 }
 
 .banner {
@@ -49,17 +62,31 @@
     margin-left: 30px;
     width: 500px;
     text-align: justify;
+    font-family: blackhansans ;
+}
+.about p{
+    font-family: barlow;
 }
 
 .problem {
     margin-left: 30px;
     width: 500px;
     text-align: justify;
+    font-family: blackhansans ;
+}
+.problem p{
+    font-family: barlow;
 }
 
 .solution {
     margin-left: 30px;
     width: 500px;
     text-align: justify;
+    font-family: blackhansans ;
 }
-
+.solution p{
+    font-family: barlow;
+}
+.solution li{
+    font-family: barlow;
+}
