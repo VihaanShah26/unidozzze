@@ -114,3 +114,110 @@
     width: 500px;
     height: auto;
 }
+
+
+/* Code for modifying it to a phone screen  */
+@media screen and (max-width: 600px) {
+
+    .header{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        font-family: blackhansans ;
+    }
+    .page-title {
+        align-items: left;
+        text-align: left;
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .page-title h5 {
+        font-family: barlow;
+        position: relative;
+        top: -30px;
+    }
+    
+    .banner {
+        align-items: right;
+        text-align: center;
+        justify-content: right;
+        justify-items: right;
+        align-content: right;
+        margin-right: 30px;
+        font-size: 16px;
+        position: relative;
+        left: 50%; 
+        top: -60%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 60px;
+        border-radius: 8px;
+        background-color: rgb(74, 74, 171);
+        color: white;
+        cursor: pointer;
+        width: fit-content;
+    }
+    
+    .text-contents {
+        position: relative;
+        top: -45px;
+    }
+    
+    .about {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+        text-align: justify;
+        font-family: blackhansans ;
+    }
+    .about p{
+        font-family: barlow;
+    }
+    
+    .problem {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+        text-align: justify;
+        font-family: blackhansans ;
+    }
+    .problem p{
+        font-family: barlow;
+    }
+    
+    .solution {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+        text-align: justify;
+        font-family: blackhansans ;
+    }
+    .solution p{
+        font-family: barlow;
+    }
+    .solution li{
+        font-family: barlow;
+    }
+    .solution b{
+        font-family: barlowbold;
+    }
+    
+    .render-container {
+        /* margin-left: 10px; */
+        margin-right: 10px;
+        border: 3px solid black;
+        border-radius: 4px;
+        overflow: hidden;
+        width: 70%;
+        height: auto;
+        position: relative;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .render-container img{
+        width: 100%;
+        height: auto;
+    }
+
+}
