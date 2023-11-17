@@ -147,10 +147,10 @@
         font-size: 16px;
         position: relative;
         left: 50%; 
-        top: -60%;
+        top: -50%;
         transform: translate(-50%, -50%);
         width: 500px;
-        height: 60px;
+        height: auto;
         border-radius: 8px;
         background-color: rgb(74, 74, 171);
         color: white;
