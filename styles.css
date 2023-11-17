@@ -90,3 +90,6 @@
 .solution li{
     font-family: barlow;
 }
+.solution b{
+    font-family: barlowbold;
+}
