@@ -106,8 +106,8 @@
 }
 
 .render-container {
-    border: 1px solid black;
-    border-radius: 6px;
+    /* border: 1px solid black;
+    border-radius: 6px; */
     overflow: hidden;
     position: absolute;
     top: 60%;
@@ -213,8 +213,8 @@
     .render-container {
         /* margin-left: 10px; */
         margin-right: 10px;
-        border: 1px solid black;
-        border-radius: 4px;
+        /* border: 1px solid black;
+        border-radius: 4px; */
         overflow: hidden;
         width: 70%;
         height: auto;

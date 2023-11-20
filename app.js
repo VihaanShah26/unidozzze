@@ -1,5 +1,5 @@
 // storing the url's to all the images to be rotated through 
-var img_list = ["images/render1.jpeg", "images/render2.jpeg", "images/render3.jpeg", "images/render4.jpeg", "images/render5.jpeg"]
+var img_list = ["images/render1.PNG", "images/render2.PNG", "images/render3.PNG", "images/render4.PNG", "images/render5.PNG"]
 
 // getting the render container 
 var renderContainer = document.querySelector('.render-container')
