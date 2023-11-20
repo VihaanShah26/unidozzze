@@ -110,7 +110,7 @@
     border-radius: 6px; */
     overflow: hidden;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
     width: 500px;
